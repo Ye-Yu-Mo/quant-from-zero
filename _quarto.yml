@@ -44,6 +44,5 @@ comments:
     mapping: pathname
     reactions-enabled: true
     input-position: top
-    theme: preferred_color_scheme
+    theme: light
     loading: lazy
-
