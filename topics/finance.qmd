@@ -1,0 +1,12 @@
+---
+title: "金融基础"
+listing: 
+  type: grid
+  contents: posts/finance
+  sort: date
+  fields: [title, date, description]
+---
+
+# 金融基础
+
+这里汇集了所有关于金融基础知识的文章，包括量化投资的基本概念、金融市场原理、风险管理等内容。

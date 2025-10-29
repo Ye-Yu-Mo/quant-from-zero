@@ -1,0 +1,12 @@
+---
+title: "策略实战"
+listing: 
+  type: grid
+  contents: posts/strategy
+  sort: date
+  fields: [title, date, description]
+---
+
+# 策略实战
+
+这里汇集了所有关于量化策略实战的文章，包括策略开发、回测分析、实盘部署等内容。
