@@ -1,0 +1,49 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "量化从入门到入土"
+  description: "给只懂编程的程序员讲金融与机器学习"
+  site-url: "https://ye-yu-mo.github.io/quant-from-zero"
+  navbar:
+    left:
+      - text: 博客
+        href: index.qmd
+      - text: 专题
+        menu:
+          - text: 金融基础
+            href: topics/finance.qmd
+          - text: 机器学习
+            href: topics/ml.qmd
+          - text: 策略实战
+            href: topics/strategy.qmd
+      - about.qmd
+  repo-url: "https://github.com/Ye-Yu-Mo/quant-from-zero"
+  repo-actions: [edit, issue]
+  search: true
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    code-copy: true
+    highlight-style: github
+    df-print: paged
+
+execute:
+  freeze: auto   # 缓存执行结果
+
+comments:
+  giscus:
+    repo: Ye-Yu-Mo/quant-from-zero         # 这里填你的仓库
+    # 下两项在 giscus.app 安装时会给，先留空或填上也行
+    # repo-id: YOUR_REPO_ID
+    # category-id: YOUR_CATEGORY_ID
+    category: General
+    mapping: pathname
+    reactions-enabled: true
+    input-position: top
+    theme: preferred_color_scheme
+    loading: lazy
+
