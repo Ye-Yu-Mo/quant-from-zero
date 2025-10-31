@@ -3,7 +3,6 @@ title: "量化投资入门：从零开始"
 date: 2025-10-29
 description: "介绍量化投资的基本概念、发展历程和入门方法"
 categories: [金融基础, 量化投资]
-image: cover.png
 ---
 
 # 量化投资入门：从零开始
